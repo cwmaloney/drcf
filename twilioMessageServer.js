@@ -158,6 +158,9 @@ function runCommands(commands) {
         case "chiefs":
         case "santa":
         case "sporting":
+        // case "ku":
+        // case "kstate":
+        // case "mu":
           doTeamAction(command.action);
           break;
         default:
@@ -165,21 +168,6 @@ function runCommands(commands) {
       }
     }
   }
-}
-
-function doTreeAction(color) {
-  console.log("doTreeAction", color);
-  // TODO ... 
-}
-
-function doTreeAction(team) {
-  console.log("doTreeAction", team);
-  // TODO ...
-}
-
-function doTreeAction(command) {
-  console.log("doTreeAction", command);
-  // TODO ...
 }
 
 function doTreeAction(command) {
@@ -191,8 +179,23 @@ function doTreeAction(command) {
   } 
 }
 
-function doStarAction(team) {
-  console.log("doStarAction", team);
+function doStarAction(command) {
+  console.log("doStarAction", command);
+  // TODO ... 
+}
+
+function doTreeAction(command) {
+  console.log("doTreeAction", command);
+  // TODO ...
+}
+
+function doColorAction(color) {
+  console.log("doColorAction", color);
+  // TODO ...
+}
+
+function doTeamAction(team) {
+  console.log("doTeamAction", team);
   // TODO ...
 }
 
@@ -218,7 +221,7 @@ app.post("/sms", function (request, response) {
     if (error.message === unrecongizedRequest) {
       note += " " + unrecongizedRequest + " " + usageMessage;
     } else {
-      note += " Farmer Virgil is having a bad day (" + error.message + ")";
+      note += " Whoops! Trouble in the barn! (" + error.message + ")";
     }
     console.log(error.message);
   }
