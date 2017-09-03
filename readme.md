@@ -92,10 +92,8 @@ The npm (node package manager) will install the JavaScript packages (libraries) 
    * Send an SMS to your lease phone number.
 
 ## Editing and Debugging using VS Code
-1. Open the project folder from the VS Code file menu
-1. Open twilioMessageService.js
-1. If you have run node from the terminal/console window, use control-C to stop it
-1. Run ngrok and configure Twilio to use the tunnel as described in "Running the service"
-1. On the menu, choose Debug / Start Debugging
+1. In VS Code, open the project folder (File/Open)
+1. On the right navigation bar (Activity bar), click the debug icon
+1. Click the green arrow icon in the debug view to start the service and attach the debugger
 
 
