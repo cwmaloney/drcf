@@ -68,6 +68,8 @@ The npm (node package manager) will install the JavaScript packages (libraries) 
   * Twilio helper library (to format reply messages)
   * Art-Net library (soon)
 
+npm installs packages in the folder "node_modules" withing the project folder.
+
 1. Install:
    * Open a terminal or command line window
    * "cd" to project folder
