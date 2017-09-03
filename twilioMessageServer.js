@@ -1,6 +1,8 @@
 const http = require("http");
 const express = require("express");
 const MessagingResponse = require('twilio').twiml.MessagingResponse;
+// body-parser reads the request stream into a string object and
+// adds it to the body ... this is good for simple HTTP requests
 const bodyParser = require('body-parser');
 
 //
@@ -202,7 +204,7 @@ function doTeamAction(team) {
 const usageMessage = "Try sending me the name of a color or your favorite team!";
 
 const app = express();
-app.use(bodyParser());
+app.use(bodyParser.urlencoded({extended: true}));
 
 app.post("/sms", function (request, response) {
   const twiml = new MessagingResponse();
