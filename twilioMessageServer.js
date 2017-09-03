@@ -209,8 +209,9 @@ app.post("/sms", function (request, response) {
 
   let note = "";
   try {
-    console.log(request.body.Body);
-    const commands = parseMessage(request.body.Body);
+    let message = request.body.Body.trim().toLowerCase();
+    console.log(message);
+    const commands = parseMessage(message);
     console.log(commands);
 
     runCommands(commands);
