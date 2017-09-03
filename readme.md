@@ -82,7 +82,7 @@ The npm (node package manager) will install the JavaScript packages (libraries) 
    * Open a terminal or command line window
    * "cd" to project folder
    * ngrok http 8080
-   * Copy the hptts forwarding address
+   * Copy the hptts forwarding address displayed by ngrok
 3. Open the Twillio console - Manager Numbers
    * https://www.twilio.com/console/phone-numbers/incoming
    * Click on the phone number
