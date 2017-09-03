@@ -42,10 +42,8 @@ VS Code is free and I used it here to gain experience.
    * Run the exe.
    * Restart your computer (to fix path environment variable - per the instructions).
 4. To verify installation, launch and close the app
-5. Add Extensions to VS Code
-   * Open VS Code
-   * On the left navigator, click the Extensions icon. Install these extensions:
-     * None require yet...
+5. ~~Add Extensions to VS Code; On the left navigation pane (Activity bar), click the Extensions icon. Install these extensions:~~
+     * ~~npm~~ 
 
 ## Install ngrok
 Ngrok provides proxy and reverser proxy for servers that do not have public endpoints.
@@ -95,7 +93,7 @@ npm installs packages in the folder "node_modules" withing the project folder.
 
 ## Editing and Debugging using VS Code
 1. In VS Code, open the project folder (File/Open)
-1. On the right navigation bar (Activity bar), click the debug icon
+1. On the left navigation pane (Activity bar), click the debug icon
 1. Click the green arrow icon in the debug view to start the service and attach the debugger
 
 
