@@ -1,60 +1,47 @@
-Install Node.js and NPM
+# Setup
 
-1.  Go to <https://nodejs.org/en/>
+## Install Node.js and NPM
+1. Go to <https://nodejs.org/en/>
+2. Download LTS or current version for Windows or Mac
+3. Run the install – accept the defaults
+4. To verify installation, in a terminal/command window, type: node -v
 
-2.  Download LTS or current version for Windows or Mac
-
-3.  Run the install – accept the defaults
-
-4.  To verify installation, in a terminal/command window, type: node -v
-
-Install ngrok
-
+## Install ngrok
 1.  Go to <https://ngrok.com>
-
 2.  Download the Windows or Mac version
-
 3.  For Mac:
 
-    1.  Unzip the installer and copy the app into your Applications
-        Folder
+..1. Unzip the installer and copy the app into your Applications Folder
+..2. cd /usr/local/bin
+..3. sudo su -
+..4. ln -s /Applications/ngrok ngrok (I can't get this to work... permissions?... using /Applicaitons/ngrok)
 
-    2.  cd /usr/local/bin
+4.For Windows:
 
-    3.  sudo su -
+..1.  Unzip the installer and copy the app into … or some folder referenced by our PATH environment
 
-    4.  ln -s /Applications/ngrok ngrok
+5. <https://ngrok.com/docs/2> is very helpful.
+6. To verify installation, in a terminal/command window, type: ngrokversion
 
-4.  For Windows:
-
-    1.  Unzip the installer and copy the app into … or some folder
-        referenced by our PATH environment
-
-5.  <https://ngrok.com/docs/2> is very helpful.
-
-6.  To verify installation, in a terminal/command window, type: ngrok
-    version
-
-Install Visual Studio Code
-
-1.  <https://code.visualstudio.com/>
-
-2.  Download the Windows or Mac version
-
-3.  For Mac:
-
-    1.  Unzip the installer and copy the app into your Applications
-        Folder
-
-4.  To verify installation, launch and close the app
-
+## Install Visual Studio Code
+1. <https://code.visualstudio.com/>
+2. Download the Windows or Mac version
+3. For Mac:
+    1. Unzip the installer and copy the app into your ApplicationsFolder
+4. To verify installation, launch and close the app
 5.  Add Extensions to VSC
-
 6.  Open Visual Studio Code
-
 7.  On the left navigator, click the Extensions icon (windows box).
     Install these extensions:
-
 8.  npm
 
+
+## Get Project
+1. Go to <https://github.com/cwmaloney/drcf>
+2. Clone or download the source (suggestion /projects/drcf).
+
+## Install npm packages
+1. Open terminal or command line
+2. "cd" to project folder
+3. run
 
